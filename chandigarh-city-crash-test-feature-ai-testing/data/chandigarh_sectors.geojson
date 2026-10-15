@@ -1,0 +1,160 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "city": "Chandigarh",
+    "provenance": "Synthetic demo dataset calibrated against Chandigarh Open Data & MC 2026 Reports",
+    "status": "synthetic_demo"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "sector_id": "sector-17",
+        "name": "Sector 17 (City Center)",
+        "elevation_factor": 0.85,
+        "drain_vulnerability": 0.80,
+        "road_exposure": 0.90,
+        "waste_pressure": 0.75,
+        "is_historic_hotspot": true,
+        "hotspot_notes": "Sector 17 Underpass & Plaza perimeter drain siltation"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.7760, 30.7350],
+            [76.7890, 30.7350],
+            [76.7890, 30.7450],
+            [76.7760, 30.7450],
+            [76.7760, 30.7350]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector_id": "sector-22",
+        "name": "Sector 22 (Aroma Chowk)",
+        "elevation_factor": 0.75,
+        "drain_vulnerability": 0.70,
+        "road_exposure": 0.85,
+        "waste_pressure": 0.80,
+        "is_historic_hotspot": true,
+        "hotspot_notes": "Aroma Chowk roundabout runoff bottleneck"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.7660, 30.7230],
+            [76.7780, 30.7230],
+            [76.7780, 30.7330],
+            [76.7660, 30.7330],
+            [76.7660, 30.7230]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector_id": "sector-35",
+        "name": "Sector 35 (Commercial Corridor)",
+        "elevation_factor": 0.70,
+        "drain_vulnerability": 0.65,
+        "road_exposure": 0.80,
+        "waste_pressure": 0.70,
+        "is_historic_hotspot": true,
+        "hotspot_notes": "Sector 34/35 boundary road water accumulation"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.7550, 30.7130],
+            [76.7680, 30.7130],
+            [76.7680, 30.7230],
+            [76.7550, 30.7230],
+            [76.7550, 30.7130]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector_id": "sector-43",
+        "name": "Sector 43 (ISBT Complex)",
+        "elevation_factor": 0.80,
+        "drain_vulnerability": 0.75,
+        "road_exposure": 0.90,
+        "waste_pressure": 0.65,
+        "is_historic_hotspot": true,
+        "hotspot_notes": "Inter-State bus depot exit depression"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.7380, 30.7070],
+            [76.7520, 30.7070],
+            [76.7520, 30.7170],
+            [76.7380, 30.7170],
+            [76.7380, 30.7070]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector_id": "sector-26",
+        "name": "Sector 26 (Grain Market / Madhya Marg)",
+        "elevation_factor": 0.85,
+        "drain_vulnerability": 0.85,
+        "road_exposure": 0.75,
+        "waste_pressure": 0.90,
+        "is_historic_hotspot": true,
+        "hotspot_notes": "Mandi organic waste blocking surface gullies"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.8020, 30.7240],
+            [76.8160, 30.7240],
+            [76.8160, 30.7340],
+            [76.8020, 30.7340],
+            [76.8020, 30.7240]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector_id": "sector-8",
+        "name": "Sector 8 (Residential)",
+        "elevation_factor": 0.30,
+        "drain_vulnerability": 0.30,
+        "road_exposure": 0.35,
+        "waste_pressure": 0.25,
+        "is_historic_hotspot": false,
+        "hotspot_notes": "Natural elevation drainage gradient"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.7890, 30.7400],
+            [76.8010, 30.7400],
+            [76.8010, 30.7500],
+            [76.7890, 30.7500],
+            [76.7890, 30.7400]
+          ]
+        ]
+      }
+    }
+  ]
+}

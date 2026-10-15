@@ -1,0 +1,122 @@
+[
+  {
+    "sector_id": "sector-17",
+    "name": "Sector 17 (City Center & Plaza)",
+    "elevation_factor": 0.85,
+    "drain_vulnerability": 0.80,
+    "road_exposure": 0.90,
+    "waste_pressure": 0.75,
+    "green_cover_factor": 0.35,
+    "is_historic_hotspot": true,
+    "critical_infrastructure": ["ISBT Sector 17", "Municipal Corporation HQ", "District Courts", "Sector 17 Underpass"],
+    "coordinates": {"lat": 30.7398, "lng": 76.7827}
+  },
+  {
+    "sector_id": "sector-22",
+    "name": "Sector 22 (Aroma Chowk & Market)",
+    "elevation_factor": 0.75,
+    "drain_vulnerability": 0.70,
+    "road_exposure": 0.85,
+    "waste_pressure": 0.80,
+    "green_cover_factor": 0.40,
+    "is_historic_hotspot": true,
+    "critical_infrastructure": ["Aroma Light Point", "Shastri Market", "Sector 22 Civil Dispensary"],
+    "coordinates": {"lat": 30.7280, "lng": 76.7720}
+  },
+  {
+    "sector_id": "sector-35",
+    "name": "Sector 35 (Commercial & Hotel Hub)",
+    "elevation_factor": 0.70,
+    "drain_vulnerability": 0.65,
+    "road_exposure": 0.80,
+    "waste_pressure": 0.70,
+    "green_cover_factor": 0.45,
+    "is_historic_hotspot": true,
+    "critical_infrastructure": ["Sector 35/36 Roundabout", "Hotel Strip", "Market Square"],
+    "coordinates": {"lat": 30.7180, "lng": 76.7620}
+  },
+  {
+    "sector_id": "sector-43",
+    "name": "Sector 43 (ISBT & Judicial Complex)",
+    "elevation_factor": 0.80,
+    "drain_vulnerability": 0.75,
+    "road_exposure": 0.90,
+    "waste_pressure": 0.65,
+    "green_cover_factor": 0.50,
+    "is_historic_hotspot": true,
+    "critical_infrastructure": ["Inter-State Bus Terminus 43", "Chandigarh District Judicial Complex"],
+    "coordinates": {"lat": 30.7120, "lng": 76.7450}
+  },
+  {
+    "sector_id": "sector-26",
+    "name": "Sector 26 (Grain Market & College Belt)",
+    "elevation_factor": 0.85,
+    "drain_vulnerability": 0.85,
+    "road_exposure": 0.75,
+    "waste_pressure": 0.90,
+    "green_cover_factor": 0.30,
+    "is_historic_hotspot": true,
+    "critical_infrastructure": ["Grain & Vegetable Market (Mandi)", "Madhya Marg Corridor", "Police Lines"],
+    "coordinates": {"lat": 30.7290, "lng": 76.8090}
+  },
+  {
+    "sector_id": "sector-8",
+    "name": "Sector 8 (Residential North)",
+    "elevation_factor": 0.30,
+    "drain_vulnerability": 0.30,
+    "road_exposure": 0.35,
+    "waste_pressure": 0.25,
+    "green_cover_factor": 0.85,
+    "is_historic_hotspot": false,
+    "critical_infrastructure": ["Inner Market", "Sector 8 Community Center"],
+    "coordinates": {"lat": 30.7450, "lng": 76.7950}
+  },
+  {
+    "sector_id": "sector-9",
+    "name": "Sector 9 (Administrative & Secretariat Corridor)",
+    "elevation_factor": 0.35,
+    "drain_vulnerability": 0.25,
+    "road_exposure": 0.40,
+    "waste_pressure": 0.20,
+    "green_cover_factor": 0.80,
+    "is_historic_hotspot": false,
+    "critical_infrastructure": ["UT Secretariat", "Police Headquarters"],
+    "coordinates": {"lat": 30.7520, "lng": 76.7870}
+  },
+  {
+    "sector_id": "sector-15",
+    "name": "Sector 15 (Panjab University Adjacent)",
+    "elevation_factor": 0.60,
+    "drain_vulnerability": 0.55,
+    "road_exposure": 0.65,
+    "waste_pressure": 0.60,
+    "green_cover_factor": 0.55,
+    "is_historic_hotspot": false,
+    "critical_infrastructure": ["Patel Market", "Government College for Men"],
+    "coordinates": {"lat": 30.7530, "lng": 76.7680}
+  },
+  {
+    "sector_id": "sector-industrial-1",
+    "name": "Industrial Area Phase 1",
+    "elevation_factor": 0.75,
+    "drain_vulnerability": 0.80,
+    "road_exposure": 0.80,
+    "waste_pressure": 0.85,
+    "green_cover_factor": 0.25,
+    "is_historic_hotspot": true,
+    "critical_infrastructure": ["CTU Workshop", "Elante Commercial Perimeter", "Railway Station Link"],
+    "coordinates": {"lat": 30.7070, "lng": 76.8040}
+  },
+  {
+    "sector_id": "sector-industrial-2",
+    "name": "Industrial Area Phase 2",
+    "elevation_factor": 0.70,
+    "drain_vulnerability": 0.75,
+    "road_exposure": 0.70,
+    "waste_pressure": 0.80,
+    "green_cover_factor": 0.30,
+    "is_historic_hotspot": false,
+    "critical_infrastructure": ["Heavy Transport Depot", "Substation 66kV"],
+    "coordinates": {"lat": 30.6970, "lng": 76.7920}
+  }
+]

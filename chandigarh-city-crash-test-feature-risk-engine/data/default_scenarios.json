@@ -1,0 +1,66 @@
+[
+  {
+    "scenario_id": "scen-default-60mm",
+    "title": "August Monsoon Deluge Baseline (60mm)",
+    "description": "Standard hackathon benchmark scenario representing heavy monsoon rainfall with clogged gullies and peak evening commute.",
+    "rainfall_mm": 60.0,
+    "rainfall_duration_hours": 2.0,
+    "debris_level": "high",
+    "drain_condition": "partial_blockage",
+    "traffic_level": "peak",
+    "temperature_c": 38.0,
+    "resources": {
+      "maintenance_teams": 4,
+      "pumping_units": 2,
+      "budget_inr": 350000.0
+    }
+  },
+  {
+    "scenario_id": "scen-cloudburst-100mm",
+    "title": "Severe Cloudburst Stress Test (100mm)",
+    "description": "Extreme precipitation scenario testing system resilience under critical infrastructure blockage.",
+    "rainfall_mm": 100.0,
+    "rainfall_duration_hours": 1.5,
+    "debris_level": "extreme",
+    "drain_condition": "critical",
+    "traffic_level": "peak",
+    "temperature_c": 36.0,
+    "resources": {
+      "maintenance_teams": 6,
+      "pumping_units": 4,
+      "budget_inr": 600000.0
+    }
+  },
+  {
+    "scenario_id": "scen-moderate-30mm",
+    "title": "Moderate Rain Event (30mm)",
+    "description": "Typical seasonal shower with standard municipal drain maintenance.",
+    "rainfall_mm": 30.0,
+    "rainfall_duration_hours": 3.0,
+    "debris_level": "normal",
+    "drain_condition": "good",
+    "traffic_level": "normal",
+    "temperature_c": 34.0,
+    "resources": {
+      "maintenance_teams": 2,
+      "pumping_units": 1,
+      "budget_inr": 150000.0
+    }
+  },
+  {
+    "scenario_id": "scen-heatwave-dry-42c",
+    "title": "Pre-Monsoon Heatwave Stress (42°C)",
+    "description": "Tests isolated heat-stress pathway without raising false flood alerts.",
+    "rainfall_mm": 15.0,
+    "rainfall_duration_hours": null,
+    "debris_level": "normal",
+    "drain_condition": "good",
+    "traffic_level": "normal",
+    "temperature_c": 42.0,
+    "resources": {
+      "maintenance_teams": 4,
+      "pumping_units": 2,
+      "budget_inr": 200000.0
+    }
+  }
+]

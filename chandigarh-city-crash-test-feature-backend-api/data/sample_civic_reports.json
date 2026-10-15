@@ -1,0 +1,46 @@
+[
+  {
+    "event_id": "evt-101",
+    "category": "drainage_blockage",
+    "severity": "high",
+    "sector_id": "sector-17",
+    "location_description": "Road gully grating choked with tree leaves and plastic covers near Plaza fountain",
+    "reported_at": "2026-10-10T14:30:00Z",
+    "status": "verified",
+    "confidence": 0.92,
+    "source": "citizen_app"
+  },
+  {
+    "event_id": "evt-102",
+    "category": "waste_dumping",
+    "severity": "critical",
+    "sector_id": "sector-26",
+    "location_description": "Illegal vegetable mandi organic waste dumping directly beside stormwater drain intake",
+    "reported_at": "2026-10-10T16:15:00Z",
+    "status": "pending_action",
+    "confidence": 0.88,
+    "source": "surveillance_alert"
+  },
+  {
+    "event_id": "evt-103",
+    "category": "waterlogging_onset",
+    "severity": "medium",
+    "sector_id": "sector-35",
+    "location_description": "Water pooling 6 inches deep on lane connecting Aroma chowk to Sector 35 roundabout",
+    "reported_at": "2026-10-11T09:45:00Z",
+    "status": "investigating",
+    "confidence": 0.95,
+    "source": "field_marshal"
+  },
+  {
+    "event_id": "evt-104",
+    "category": "traffic_slowdown",
+    "severity": "high",
+    "sector_id": "sector-43",
+    "location_description": "Bus exit bottleneck due to standing water on left lane of ISBT link road",
+    "reported_at": "2026-10-11T11:20:00Z",
+    "status": "verified",
+    "confidence": 0.89,
+    "source": "traffic_camera"
+  }
+]
