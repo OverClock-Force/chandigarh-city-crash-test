@@ -5,6 +5,7 @@ from .stress_test import router as stress_test_router
 from .optimize import router as optimize_router
 from .scenarios import router as scenarios_router
 from .ai import router as ai_router
+from .ml import router as ml_router
 
 __all__ = [
     "health_router",
@@ -14,4 +15,5 @@ __all__ = [
     "optimize_router",
     "scenarios_router",
     "ai_router",
+    "ml_router",
 ]

@@ -168,3 +168,7 @@ export function confirmVisionReport(reportPayload) {
         body: JSON.stringify(reportPayload),
     });
 }
+
+export function getMLSuite() {
+    return request("/api/ml/suite");
+}

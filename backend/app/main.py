@@ -19,6 +19,7 @@ from backend.app.routers import (
     optimize_router,
     scenarios_router,
     ai_router,
+    ml_router,
 )
 
 app = FastAPI(
@@ -79,6 +80,7 @@ app.include_router(stress_test_router)
 app.include_router(optimize_router)
 app.include_router(scenarios_router)
 app.include_router(ai_router)
+app.include_router(ml_router)
 
 
 @app.get("/", tags=["Root"])
@@ -100,6 +102,10 @@ def root():
             "ai_chat": "/api/ai/chat",
             "ai_complaint": "/api/ai/complaint",
             "ai_status": "/api/ai/status",
+            "ml_suite": "/api/ml/suite",
+            "ml_clustering": "/api/ml/clustering",
+            "ml_decision_tree": "/api/ml/decision-tree",
+            "ml_regression": "/api/ml/regression",
             "documentation": "/docs"
         },
         "team_lead": "Aman Gupta (Backend & Data Lead)"

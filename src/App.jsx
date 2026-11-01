@@ -31,6 +31,7 @@ import {
   Eye,
   Check,
   Image as ImageIcon,
+  Brain,
 } from 'lucide-react'
 import {
   getSectors,
@@ -45,27 +46,26 @@ import {
   confirmVisionReport,
 } from './api/client.js'
 import { PRESET_DAMAGE_PHOTOS } from './data/visionSamples.js'
-
-
+import MLSuiteView from './components/MLSuiteView.jsx'
 
 const navigation = [
   { id: 'overview', label: 'City Overview', icon: LayoutDashboard },
   { id: 'stress-test', label: 'Stress-Test Lab', icon: Activity },
   { id: 'risk-analysis', label: 'Risk Analysis', icon: GitBranch },
   { id: 'interventions', label: 'Intervention Planner', icon: BarChart3 },
+  { id: 'ml-suite', label: 'ML Analytics', icon: Brain },
   { id: 'reports', label: 'Civic Reports', icon: ClipboardList },
   { id: 'vision-ai', label: 'Vision AI Scanner', icon: Camera },
   { id: 'ai-chat', label: 'C3T-AI Chat', icon: Bot },
   { id: 'methodology', label: 'Methodology', icon: FileText },
 ]
 
-
-
 const descriptions = {
   overview: 'Explore modeled city-sector risks and recent civic events.',
   'stress-test': 'Configure hypothetical scenarios and examine possible outcomes.',
   'risk-analysis': 'Understand modeled risk factors and possible failure cascades.',
   interventions: 'Compare hypothetical interventions within available resources.',
+  'ml-suite': 'Classical ML models (K-Means, Decision Tree, Linear Regression) for urban risk prediction.',
   reports: 'Record and review sample reports about urban issues.',
   'vision-ai': 'Multimodal AI photo scanner: analyze citizen photos of waterlogging, potholes, or clogged drains.',
   'ai-chat': 'Ask C3T-AI anything about urban risks, sectors, or scenarios.',
@@ -2145,7 +2145,10 @@ function App() {
             </>
           )}
 
-
+          {/* MACHINE LEARNING SUITE */}
+          {activePage === 'ml-suite' && (
+            <MLSuiteView />
+          )}
 
           {/* METHODOLOGY */}
           {activePage === 'methodology' && (

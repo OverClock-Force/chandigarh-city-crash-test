@@ -11,6 +11,7 @@ Endpoints:
   POST /api/ai/report-from-vision — Confirm vision findings & log as C3T civic event
 """
 
+import os
 import base64
 import logging
 from typing import Optional, Dict, Any, List
